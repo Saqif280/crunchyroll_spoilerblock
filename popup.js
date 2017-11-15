@@ -18,12 +18,12 @@ document.getElementById("toggle").onclick = function(){toggle();}
 function toggle(){  
   if(document.getElementById("toggle").checked){
     localStorage['status'] = 1;
-    // chrome.browserAction.setIcon({path: "icons/icon.png"});
+    chrome.browserAction.setIcon({path: "images/icon128.png"});
     changeOpacity(0);
     console.log("hide thumbnail");
   } else {
     localStorage['status'] = 0;
-    // chrome.browserAction.setIcon({path: "icons/icon_disabled.png"});
+    chrome.browserAction.setIcon({path: "images/icon128_disabled.png"});
     changeOpacity(1);
     console.log("show thumbnail");
   }

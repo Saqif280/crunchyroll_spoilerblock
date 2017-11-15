@@ -6,15 +6,16 @@
   "description": "Hides thumbnails of episodes on Crunchyroll.com, so you can find the episode you're looking for with your eyes open.",
 
   "browser_action": {
-    "default_icon": {
-      "19": "images/icon19.png",
-      "38": "images/icon38.png"
-    },
+    "default_icon": "images/icon128.png",
+    // "default_icon": {
+    //   "19": "images/icon19.png",
+    //   "38": "images/icon38.png"
+    // },
     "default_popup": "popup.html"
   },
   "icons": {
-    "16": "images/icon16.png",
-    "48": "images/icon48.png",
+    // "16": "images/icon16.png",
+    // "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
 
