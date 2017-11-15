@@ -1,3 +1,39 @@
+/* GENERAL */
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 200px;
+  background-color: #F9FAFC;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color: #fff;
+}
+p{
+  font-size: 0.5rem;
+  /*white-space: pre;*/
+}
+.header{
+  background-color: #F58B35;
+  padding: 20px;
+}
+.container{
+  margin-top: 20px;
+  padding: 20px;
+}
+.footer{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #EFF2F7;
+}
+
+
+/* SWITCH STYLES*/
+/* credit: w3 schools */
 .switch {
   position: relative;
   display: inline-block;
@@ -32,11 +68,11 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #F58B35;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #F58B35;
 }
 
 input:checked + .slider:before {
