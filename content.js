@@ -55,12 +55,16 @@ function changeTitleOpacity(newOpacity){
   // console.log("change opacity running");
   var all1 = document.getElementsByClassName('short-desc');
   for (var i = 0; i < all1.length; i++){
-    // console.log("hiding a landscape");
     all1[i].style.opacity = newOpacity;
   }
   var all2 = document.getElementsByClassName('collection-carousel-overlay-bottom');
   for (var i = 0; i < all2.length; i++){
     all2[i].style.opacity = newOpacity;
   }
+  var all3 = document.getElementsByClassName('showmedia-header');
+  for (var i = 0; i < all3.length; i++){
+    all3[i].style.opacity = newOpacity;
+  }
+  document.getElementById('showmedia_about_info').style.opacity = newOpacity;
   // console.log("change opacity finished");
 }

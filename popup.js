@@ -78,4 +78,10 @@ function changeTitleOpacity(opacity){
   chrome.tabs.executeScript(null,{
     code:"var all = document.getElementsByClassName('collection-carousel-overlay-bottom');for (var i = 0; i < all.length; i++) {all[i].style.opacity = "+opacity+";}"
   });
+  chrome.tabs.executeScript(null,{
+    code:"var all = document.getElementsByClassName('showmedia-header');for (var i = 0; i < all.length; i++) {all[i].style.opacity = "+opacity+";}"
+  });
+  chrome.tabs.executeScript(null,{
+    code:"document.getElementById('showmedia_about_info').style.opacity = "+opacity+";"
+  });
 }

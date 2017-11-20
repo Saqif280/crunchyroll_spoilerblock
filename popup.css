@@ -22,13 +22,20 @@ p{
   padding: 20px;
 }
 .container{
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   padding: 20px;
 }
 .footer{
   margin-top: 20px;
   padding: 20px;
   background-color: #EFF2F7;
+}
+.switch-label{
+  /*padding-bottom: 50px;*/
+}
+.spacer{
+  width: 100%;
+  height: 40px;
 }
 
 
